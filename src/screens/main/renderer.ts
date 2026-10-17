@@ -11,6 +11,6 @@
  *
  * https://electronjs.org/docs/tutorial/security
  */
-
+import "modern-normalize/modern-normalize.css";
 import "./index.css";
 import "./App";
