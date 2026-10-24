@@ -1,6 +1,6 @@
 # Mixis
 
-An electron app to communicate with an X32 and several RTP MIDI controllers. MeterBridge and GetStarted.
+An electron app to communicate with an X32 and several RTP MIDI controllers.
 
 # About the electron template used.
 
