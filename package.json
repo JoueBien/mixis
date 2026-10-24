@@ -37,13 +37,16 @@
     "oxlint": "^1.88.0",
     "prettier": "3.8.0",
     "typescript": "^7.0.2",
-    "vite": "^8.3.4"
+    "vite": "^8.3.4",
+    "vitest": "5.0.5"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@vitejs/plugin-react": "^6.1.2",
+    "@joue-bien/rtp-midi-transport": "0.3.0",
+    "@joue-bien/osc-ts": "2.0.0",
     "electron-squirrel-startup": "^1.0.1",
     "modern-normalize": "^3.0.1",
     "react": "^19.3.1",

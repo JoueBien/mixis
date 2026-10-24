@@ -1,6 +1,8 @@
-import { app, BrowserWindow } from "electron";
 import path from "node:path";
+
+import { BrowserWindow, app } from "electron";
 import started from "electron-squirrel-startup";
+
 import { createWindow } from "./utils/windows/createWindow";
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.

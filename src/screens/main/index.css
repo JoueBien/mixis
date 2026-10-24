@@ -1,5 +1,5 @@
 body {
-  background: red;
+  background: #21252b;
 }
 
 /** Reset the padding to 0 on elements. */
@@ -12,4 +12,8 @@ h6,
 p {
   margin: unset;
   padding: unset;
+}
+
+@function --px(--pixels) {
+  result: calc(1rem / 16 * var(--pixels));
 }

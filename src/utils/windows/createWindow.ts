@@ -1,5 +1,7 @@
-import { BrowserWindow } from "electron";
 import path from "node:path";
+
+import { BrowserWindow } from "electron";
+
 import { windowTargets } from "./windowTargets";
 
 /** Create a Window using options. */
