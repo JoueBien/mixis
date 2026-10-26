@@ -75,6 +75,54 @@ root.render(
         bgColor={SCRIBBLE_STRIP_COLORS.WH}
         textColor={SCRIBBLE_STRIP_COLORS.OFFi}
       />
+      <ScribbleStrip
+        channelName="KICK DRUM"
+        channelId="CH 1"
+        bgColor={SCRIBBLE_STRIP_COLORS.OFF}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="SNARE"
+        channelId="CH 2"
+        bgColor={SCRIBBLE_STRIP_COLORS.RD}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="HIGH HAT"
+        channelId="CH 2"
+        bgColor={SCRIBBLE_STRIP_COLORS.GN}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="TOM 1"
+        channelId="CH 2"
+        bgColor={SCRIBBLE_STRIP_COLORS.YE}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="TOM 2"
+        channelId="CH 2"
+        bgColor={SCRIBBLE_STRIP_COLORS.BL}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="FLOOR TOM"
+        channelId="CH 2"
+        bgColor={SCRIBBLE_STRIP_COLORS.MG}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="OVER HEAD L1"
+        channelId="CH 3"
+        bgColor={SCRIBBLE_STRIP_COLORS.CY}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
+      <ScribbleStrip
+        channelName="OVER HEAD R1"
+        channelId="CH 2"
+        bgColor={SCRIBBLE_STRIP_COLORS.WH}
+        textColor={SCRIBBLE_STRIP_COLORS.OFFi}
+      />
     </div>
     <div
       style={{

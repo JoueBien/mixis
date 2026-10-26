@@ -18,8 +18,13 @@ app.whenReady().then(() => {
     options: {
       windowTarget: "main_window",
       openDevTools: true,
+      devToolOptions: { mode: "undocked" },
     },
     browserwindow: {
+      width: 1920,
+      height: 1080,
+      minWidth: 1920,
+      minHeight: 1090,
       webPreferences: {
         preload: path.join(__dirname, "preload.cjs"),
       },
@@ -34,6 +39,7 @@ app.whenReady().then(() => {
         options: {
           windowTarget: "main_window",
           openDevTools: true,
+          devToolOptions: { mode: "undocked" },
         },
         browserwindow: {
           webPreferences: {

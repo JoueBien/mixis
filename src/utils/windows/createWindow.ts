@@ -1,20 +1,25 @@
 import path from "node:path";
 
-import { BrowserWindow } from "electron";
+import {
+  BrowserWindow,
+  type BrowserWindowConstructorOptions,
+  type OpenDevToolsOptions,
+} from "electron";
 
 import { windowTargets } from "./windowTargets";
 
 /** Create a Window using options. */
 export function createWindow(params: {
-  browserwindow?: Electron.BrowserWindowConstructorOptions;
+  browserwindow?: BrowserWindowConstructorOptions;
   options: {
     windowTarget: keyof typeof windowTargets;
     openDevTools?: boolean;
+    devToolOptions?: OpenDevToolsOptions;
   };
 }) {
   const {
     browserwindow,
-    options: { windowTarget, openDevTools },
+    options: { windowTarget, openDevTools, devToolOptions },
   } = params;
 
   // Create the browser window.
@@ -41,7 +46,7 @@ export function createWindow(params: {
 
   // Open the DevTools.
   if (openDevTools) {
-    mainWindow.webContents.openDevTools();
+    mainWindow.webContents.openDevTools(devToolOptions);
   }
   return mainWindow;
 }
